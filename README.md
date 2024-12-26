@@ -51,6 +51,7 @@ Key metrics such as total orders, average sales, and number of returns are calcu
 **Cubit for state management**: Cubit is used to manage the state of the orders and UI interactions.
 
 **fl_chart for charts**: A bar chart is used to visualize the number of orders per month.
+
 **intl package**: Used for date formatting and localization support (Arabic and English).
 
 ## Packages Used
