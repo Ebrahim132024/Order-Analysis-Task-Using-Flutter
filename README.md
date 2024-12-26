@@ -54,6 +54,9 @@ Key metrics such as total orders, average sales, and number of returns are calcu
 
 **intl package**: Used for date formatting and localization support (Arabic and English).
 
+## Testing Code
+The test you've written for calculating total orders, returns, and average sales looks good.
+
 ## Packages Used
 - **flutter_bloc**: State management using Cubit.
 - **json_annotation**: For JSON parsing.
