@@ -23,8 +23,6 @@ This Flutter application reads a JSON file containing customer orders, parses th
 
 ### Step 1: Clone the repository
 Clone the repository to your local machine using the following command:
-
-```bash
 git clone <repository_url>
 
 ### Step 2: Install Dependencies
@@ -46,3 +44,21 @@ Copy code
 flutter run
 The app will be available on both Android and iOS platforms.
 
+## Assumptions Made During Development
+The JSON data contains orders in the format of a list of objects.
+The date format used in the JSON file (e.g., yyyy-MM-ddTHH:mm:ssZ).
+The number of orders per month is grouped by the order_date field.
+The app uses the fl_chart package to display the bar chart for orders per month.
+Key metrics such as total orders, average sales, and number of returns are calculated on the client side.
+
+## Architecture
+Cubit for state management: Cubit is used to manage the state of the orders and UI interactions.
+fl_chart for charts: A bar chart is used to visualize the number of orders per month.
+intl package: Used for date formatting and localization support (Arabic and English).
+
+## Packages Used
+flutter_bloc: State management using Cubit.
+json_annotation: For JSON parsing.
+equatable: For comparing objects in Cubit states.
+shared_preferences: For storing local preferences.
+easy_localization: For multi-language support.
