@@ -23,7 +23,6 @@ void main() {
         }
       }''';
 
-
       final orders = json
           .decode(response)['data']['orders']
           .map((e) => Order.fromJson(e))
