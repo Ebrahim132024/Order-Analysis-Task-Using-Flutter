@@ -28,10 +28,6 @@ git clone <repository_url>
 ### Step 2: Install Dependencies
 Make sure you have Flutter installed on your machine. Then, navigate to the project directory and run the following command to install the dependencies:
 
-bash
-Copy code
-flutter pub get
-
 ### Step 3: Add Assets
 In the assets/ directory, ensure you have the following files:
 orders_data.json: Contains the order data in JSON format.
