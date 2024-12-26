@@ -52,13 +52,13 @@ The app uses the fl_chart package to display the bar chart for orders per month.
 Key metrics such as total orders, average sales, and number of returns are calculated on the client side.
 
 ## Architecture
-Cubit for state management: Cubit is used to manage the state of the orders and UI interactions.
-fl_chart for charts: A bar chart is used to visualize the number of orders per month.
-intl package: Used for date formatting and localization support (Arabic and English).
+**Cubit for state management**: Cubit is used to manage the state of the orders and UI interactions.
+**fl_chart for charts**: A bar chart is used to visualize the number of orders per month.
+**intl package**: Used for date formatting and localization support (Arabic and English).
 
 ## Packages Used
-flutter_bloc: State management using Cubit.
-json_annotation: For JSON parsing.
-equatable: For comparing objects in Cubit states.
-shared_preferences: For storing local preferences.
-easy_localization: For multi-language support.
+- **flutter_bloc**: State management using Cubit.
+- **json_annotation**: For JSON parsing.
+- **equatable**: For comparing objects in Cubit states.
+- **shared_preferences**: For storing local preferences.
+- **easy_localization**: For multi-language support.
