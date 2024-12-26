@@ -35,9 +35,9 @@ Language files: en.json and ar.json inside the assets/lang/ directory for Englis
 
 ### Step 4: Run the App
 After setting up the assets and dependencies, you can run the app using the following command:
-bash
-Copy code
+
 flutter run
+
 The app will be available on both Android and iOS platforms.
 
 ## Assumptions Made During Development
